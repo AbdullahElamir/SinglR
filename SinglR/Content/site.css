@@ -1,0 +1,330 @@
+﻿@import "assets/css/bootstrap.min.rtl.css";
+@import "assets/css/animate.min.css";
+@import "assets/css/light-bootstrap-dashboard.rtl.css";
+@import "assets/css/demo.rtl.css";
+@import "fonts/font-awesome.min.css";
+@import "assets/css/pe-icon-7-stroke.css";
+/*@import "csselement.css";*/
+
+/*@import "element-ui/lib/theme-chalk/index.css";
+@import "cssvuetify.css";
+@import "vuetify/dist/vuetify.min.css";*/
+
+.Color-Code {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.el-alert__title {
+    font-size: 30px;
+}
+
+    .SuperPackage {
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+  a {
+  text-decoration: none;
+  }
+
+
+
+  #darkBack {
+  width: 100%;
+  height: 100vh;
+  background: rgba(76, 56, 75, .15);
+  }
+
+  #popUp {
+  z-index: 1;
+  position: fixed;
+  max-width: 350px;
+  height: 225px;
+  background: rgba(236, 240, 241, 1);
+  border: 7px solid #fff;
+  bottom: 0;
+  margin-left: 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  }
+
+  #new span {
+  background: #fff;
+  position: absolute;
+  color: #1c8dc4;
+  padding: 4px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: -5px;
+  }
+
+  #popUp .close {
+  color: #464646;
+  right: 8px;
+  top: 0px;
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  }
+
+  #popUp h2 {
+  font-size: 17px;
+  color: #464646;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 40px;
+  padding: 0 20px;
+  }
+
+  #body {
+  height: 1200px;
+  background: #eee;
+  }
+
+  a.button {
+  margin: 0 auto;
+  text-align: center;
+  right: 0;
+  left: 0;
+  position: absolute;
+  width: 120px;
+  font-size: 15px;
+  color: #fff;
+  border-bottom: 2px solid #18729f;
+  background: #1c8dc4;
+  border-radius: 4px;
+  padding: 8px 0;
+  }
+
+  #plus {
+  z-index: 1;
+  position: fixed;
+  color: #fff;
+  bottom: 15%;
+  font-size: 15px;
+  margin-left: -425px;
+  -webkit-transition: all 1.25s ease;
+  -moz-transition: all 1.25s ease;
+  -o-transition: all 1.25s ease;
+  transition: all 1.25s ease;
+  cursor: pointer;
+  text-align: left;
+  letter-spacing: 1px;
+  }
+
+  #plus span {
+  position: absolute;
+  margin-top: 38px;
+  left: 4px;
+  }
+
+  #plus::after {
+  content: '';
+  display: block;
+  display: relative;
+  border-top: 55px solid transparent;
+  border-bottom: 55px solid transparent;
+  border-left: 55px solid red;
+  }
+
+  @media all and (max-width: 900px) {
+  #popUp {
+  margin-left: -425px;
+  }
+  #plus {
+  margin-left: 0px;
+  }
+  }
+
+.card {
+    height: 1000px;
+}
+
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+  @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+  .snip1493 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  float: right;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+
+  .snip1493 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+
+  .snip1493:after {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent #d2652d;
+  content: '';
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  }
+
+  .snip1493 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  }
+
+  .snip1493 figcaption {
+  padding: 20px 20px 30px;
+  background-color: #ffffff;
+  }
+
+  .snip1493 .date {
+  background-color: #d2652d;
+  top: 15px;
+  color: #fff;
+  right: 15px;
+  min-height: 48px;
+  min-width: 48px;
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 50%;
+  padding: 10px 0;
+  }
+
+  .snip1493 .date span {
+  display: block;
+  line-height: 14px;
+  }
+
+  .snip1493 .date .month {
+  font-size: 11px;
+  }
+
+  .snip1493 h3,
+  .snip1493 p {
+  margin: 0;
+  padding: 0;
+  }
+
+  .snip1493 h3 {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: 700;
+  }
+
+  .snip1493 p {
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  line-height: 1.6em;
+  }
+
+  .snip1493 footer {
+  padding: 0 25px;
+  color: #999999;
+  font-size: 0.8em;
+  line-height: 50px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  }
+
+  .snip1493 footer > div {
+  display: inline-block;
+  margin-right: 6px;
+  }
+
+  .snip1493 footer i {
+  margin-right: 5px;
+  font-size: 1.2em;
+  }
+
+  .snip1493 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+  }
+
+  .snip1493:hover:after,
+  .snip1493.hover:after {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  }
+
+
+
+.elevation-1 {
+    margin: 20px!important;
+}
+
+    @font-face {
+        font-family: 'DroidArabicKufiRegular';
+        src: url('fonts/DroidKufi-Regular.eot') format('embedded-opentype'), url('fonts/DroidKufi-Regular.woff') format('woff'), url('fonts/DroidKufi-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    * {
+    font-family: 'DroidArabicKufiRegular';
+}
+label {
+    color:black!important;
+}
+
+
+.card .content {
+    padding: 30px!important;
+}
+ 
+.selectCompany {
+    margin-top: 15px;
+    margin-bottom: 70px;
+    /* width: 500px; */
+    /* margin-left: 1px; */
+    /* display: block; */
+    float: right;
+}
+
+.headerCustom {
+    text-align: left;
+    padding: 15px 15px 0;
+    height: 70px;
+}
+
+
+
+
+
+

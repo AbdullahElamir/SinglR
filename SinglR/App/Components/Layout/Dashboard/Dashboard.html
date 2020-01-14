@@ -1,0 +1,83 @@
+﻿<div class="sidebar-wrapper" dir="rtl">
+    <div class="logo">
+        <a href="http://www.creative-tim.com" class="simple-text">
+            CM System
+        </a>
+    </div>
+
+    <ul class="nav">
+        <li @click="active = 1" :class="{'active':1 == active}">
+            <a href="#" @click.prevent="href('/')">
+                <i class="pe-7s-home"></i>
+                <p>الرئــيسية</p>
+            </a>
+        </li>
+        <li @click="active = 2" :class="{'active':2 == active}">
+            <a href="#" @click.prevent="href('/Companies')">
+                <i class="pe-7s-culture"></i>
+                <p> الشركات</p>
+            </a>
+        </li>
+        <li @click="active = 3" :class="{'active':3 == active}">
+            <a href="#" @click.prevent="href('/Students')">
+                <i class="pe-7s-users"></i>
+                <p> المتدربين</p>
+            </a>
+        </li>
+
+        <li @click="active = 4" :class="{'active':4 == active}">
+            <a href="#" @click.prevent="href('/Packages')">
+                <i class="pe-7s-server"></i>
+                <p>باقة الحزم</p>
+            </a>
+        </li>
+        <li @click="active = 5" :class="{'active':5 == active}">
+            <a href="#" @click.prevent="href('/SubPackages')">
+                <i class="pe-7s-notebook"></i>
+                <p>الحزم الفردية</p>
+            </a>
+        </li>
+        <li @click="active = 6" :class="{'active':6 == active}">
+            <a href="#" @click.prevent="href('/Courses')">
+                <i class="pe-7s-news-paper"></i>
+                <p>الدورات</p>
+            </a>
+        </li>
+        <li @click="active = 7" :class="{'active':7 == active}">
+            <a href="typography.html">
+                <i class="pe-7s-news-paper"></i>
+                <p>الفصول الدراسية</p>
+            </a>
+        </li>
+        <li @click="active = 8" :class="{'active':8 == active}">
+            <a href="typography.html">
+                <i class="pe-7s-news-paper"></i>
+                <p>الفواتير ودفعات</p>
+            </a>
+        </li>
+        <!--<li>
+            <a href="icons.html">
+                <i class="pe-7s-science"></i>
+                <p>Icons</p>
+            </a>
+        </li>
+        <li>
+            <a href="maps.html">
+                <i class="pe-7s-map-marker"></i>
+                <p>Maps</p>
+            </a>
+        </li>
+        <li>
+            <a href="notifications.html">
+                <i class="pe-7s-bell"></i>
+                <p>Notifications</p>
+            </a>
+        </li>
+        <li class="active-pro">
+            <a href="upgrade.html">
+                <i class="pe-7s-rocket"></i>
+                <p>Upgrade to PRO</p>
+            </a>
+        </li>-->
+    </ul>
+</div>
